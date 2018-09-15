@@ -10,5 +10,15 @@
         "psr-4": {
             "Leap\\LaravelSentry\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leap\\LaravelSentry\\LaravelSentryServiceProvider"
+            ],
+            "aliases": {
+                "Sentry": "Leap\\LaravelSentry\\Sentry"
+            }
+        }
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Lead\LaravelSentry;
+namespace Leap\LaravelSentry;
 
 
 use Illuminate\Support\ServiceProvider;
