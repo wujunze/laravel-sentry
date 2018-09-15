@@ -1,0 +1,14 @@
+{
+    "name": "artisan/laravel-sentry",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "sentry/sentry": "^1.9",
+        "illuminate/support": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leap\\LaravelSentry\\": "src/"
+        }
+    }
+}
