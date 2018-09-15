@@ -1,10 +1,14 @@
 {
     "name": "artisan/laravel-sentry",
+    "description": "The Laravel Sentry package.",
+    "keywords": ["sentry", "laravel"],
+    "license": "MIT",
     "type": "library",
     "require": {
         "php": "^7.1",
-        "sentry/sentry": "^1.9",
-        "illuminate/support": "^5.7"
+        "sentry/sentry": "1.*",
+        "illuminate/support": "5.*",
+        "jenssegers/agent": "^2.6"
     },
     "autoload": {
         "psr-4": {
