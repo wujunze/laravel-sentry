@@ -1,5 +1,5 @@
 {
-    "name": "artisan/laravel-sentry",
+    "name": "wujunze/laravel-sentry",
     "description": "The Laravel Sentry package.",
     "keywords": ["sentry", "laravel"],
     "license": "MIT",

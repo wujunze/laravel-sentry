@@ -16,7 +16,7 @@ use Raven_Client;
 use Raven_Processor_SanitizeDataProcessor;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Throwable;
-use SentryReportable;
+use Leap\LaravelSentry\SentryReportable;
 
 class LaravelSentry
 {
