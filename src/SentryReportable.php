@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Leap\LaravelSentry;
+namespace Wujunze\LaravelSentry;
 
 interface SentryReportable
 {

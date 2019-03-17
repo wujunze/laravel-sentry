@@ -1,9 +1,9 @@
 <?php
 
-namespace Leap\LaravelSentry;
+namespace Wujunze\LaravelSentry;
 
-use Leap\LaravelSentry\Processors\HttpRequestPayloadProcessor;
-use Leap\LaravelSentry\Processors\SanitizeCookiesProcessor;
+use Wujunze\LaravelSentry\Processors\HttpRequestPayloadProcessor;
+use Wujunze\LaravelSentry\Processors\SanitizeCookiesProcessor;
 use Closure;
 use Exception;
 use GuzzleHttp\Exception\RequestException as GuzzleRequestException;
@@ -11,12 +11,12 @@ use GuzzleHttp\Psr7\Response;
 use Illuminate\Validation\ValidationException;
 use InvalidArgumentException;
 use Jenssegers\Agent\Agent;
-use Leap\LaravelSentry\Xml\XmlParser\XmlParser;
+use Wujunze\LaravelSentry\Xml\XmlParser\XmlParser;
 use Raven_Client;
 use Raven_Processor_SanitizeDataProcessor;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Throwable;
-use Leap\LaravelSentry\SentryReportable;
+use Wujunze\LaravelSentry\SentryReportable;
 
 class LaravelSentry
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Leap\LaravelSentry\Xml\XmlParser;
+namespace Wujunze\LaravelSentry\Xml\XmlParser;
 
 use DOMDocument;
 use DOMNode;

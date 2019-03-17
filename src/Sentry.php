@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Leap\LaravelSentry;
+namespace Wujunze\LaravelSentry;
 
 
 use Illuminate\Support\Facades\Facade;

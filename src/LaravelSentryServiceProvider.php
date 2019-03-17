@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Leap\LaravelSentry;
+namespace Wujunze\LaravelSentry;
 
 
 use Illuminate\Support\ServiceProvider;
@@ -13,7 +13,7 @@ class LaravelSentryServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__ . '/config.php' => config_path('sentry.php'),
+            __DIR__.'config/laravel_sentry.php' => config_path('laravel_sentry.php'),
         ]);
     }
 

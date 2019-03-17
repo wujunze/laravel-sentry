@@ -5,23 +5,33 @@
     "license": "MIT",
     "type": "library",
     "require": {
-        "php": "^7.1",
+        "php": ">=7.1",
         "sentry/sentry": "1.*",
         "illuminate/support": "5.*",
-        "jenssegers/agent": "^2.6"
+        "jenssegers/agent": "^2.6",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "laravel/framework": "^5.6",
+        "phpunit/phpunit": "^6.5"
     },
     "autoload": {
         "psr-4": {
-            "Leap\\LaravelSentry\\": "src/"
+            "Wujunze\\LaravelSentry\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wujunze\\LaravelSentry\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Leap\\LaravelSentry\\LaravelSentryServiceProvider"
+                "Wujunze\\LaravelSentry\\LaravelSentryServiceProvider"
             ],
             "aliases": {
-                "Sentry": "Leap\\LaravelSentry\\Sentry"
+                "Sentry": "Wujunze\\LaravelSentry\\Sentry"
             }
         }
     }

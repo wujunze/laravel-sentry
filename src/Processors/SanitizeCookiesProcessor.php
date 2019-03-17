@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Leap\LaravelSentry\Processors;
+namespace Wujunze\LaravelSentry\Processors;
 
 use Raven_Client;
 use Raven_Processor;
